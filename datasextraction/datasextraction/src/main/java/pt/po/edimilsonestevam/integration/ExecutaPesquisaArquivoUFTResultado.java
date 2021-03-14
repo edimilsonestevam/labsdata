@@ -1,10 +1,10 @@
 package pt.po.edimilsonestevam.integration;
 
-public class ExecutarPesquisaArquivoUFTResultado {
+public class ExecutaPesquisaArquivoUFTResultado {
 
 	public static void main(String[] args) {
 	
-		PesquisarArquivoUFTResultado sistema = new PesquisarArquivoUFTResultado();
+		PesquisaArquivoUFTResultado sistema = new PesquisaArquivoUFTResultado();
 		sistema.buscarCampoName("C:/Users/edimilsonestevam/Downloads/diretorio/uft/entrada/run_results.xml", "C:\\Users\\edimilsonestevam\\Downloads\\diretorio\\uft\\saida\\output_uft_name.xml");
 		sistema.buscarCampoResult("C:/Users/edimilsonestevam/Downloads/diretorio/uft/entrada/run_results.xml", "C:\\Users\\edimilsonestevam\\Downloads\\diretorio\\uft\\saida\\output_uft_result.xml");
 		sistema.buscarCampoStartTime("C:/Users/edimilsonestevam/Downloads/diretorio/uft/entrada/run_results.xml","C:\\Users\\edimilsonestevam\\Downloads\\diretorio\\uft\\saida\\output_uft_starttime.xml");

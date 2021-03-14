@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class PesquisarArquivoUFTResultado {
+public class PesquisaArquivoUFTResultado {
 	
 	public void buscarCampoName(String diretorioEntradaArquivoUFT, String diretorioSaidaArquivoUFT) {  
 		
