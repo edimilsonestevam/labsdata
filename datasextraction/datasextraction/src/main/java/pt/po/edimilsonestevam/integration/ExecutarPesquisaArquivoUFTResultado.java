@@ -1,6 +1,6 @@
 package pt.po.edimilsonestevam.integration;
 
-public class TestarPesquisaArquivoUFTResultado {
+public class ExecutarPesquisaArquivoUFTResultado {
 
 	public static void main(String[] args) {
 	
